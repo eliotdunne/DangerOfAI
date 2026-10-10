@@ -1,0 +1,81 @@
+
+.merriweather1 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+}
+
+body, html {
+  height: 100%;
+}
+
+.parallax {
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pimg1{
+  background-image: url('img_parallax.jpg');
+}
+
+.pimg2{
+  background-image: url('img_parallax2.jpg');
+}
+
+.pstart {
+     border-radius: 30px 30px 0px 0px
+}
+
+.pend {
+    border-radius: 0px 0px 30px 30px 
+}
+
+body {
+    padding:0;
+    margin:0;
+}
+
+
+h2, p {
+  margin: 10px;
+}
+
+#navbar-placeholder {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+ul li a.active {
+  background-color: #867070;
+}
