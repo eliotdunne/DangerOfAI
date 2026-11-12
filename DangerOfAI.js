@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <li><a href="index.html" id="nav-home">Danger of AI</a></li>
 
         <li style="float:right"><a href="#about" id="nav-about">About</a></li>
-        <li style="float:right"><a href="DangerOfAIGAME.html" id="nav-game">Game</a></li>
+        <li style="float:right"><a href="#game" id="nav-game">Game</a></li>
     </ul>
     `;
 

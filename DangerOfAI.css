@@ -79,3 +79,15 @@ ul li a:hover:not(.active) {
 ul li a.active {
   background-color: #867070;
 }
+
+.title {
+  background-color: #D5B4B4;
+  height: 160px; 
+  font-size: 35px; 
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
